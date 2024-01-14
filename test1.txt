@@ -1,0 +1,29 @@
+
+Chervov Konstantin
+
+
+#include <stdio.h>                       
+#include <stdlib.h>  
+
+#include <iostream> 
+using namespace std;
+
+
+void main()
+{
+	setlocale(LC_ALL, "RU");
+	const int n = 10;/
+	
+	 int arr[n]; 
+	
+	 for (int i = 0; i < n; i++)
+	 {
+	 arr[i] = pow(2.0, i);
+	
+	 cout << arr[i] << endl;
+	 }
+	
+	 system("pause");
+	
+}
+
